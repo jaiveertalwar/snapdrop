@@ -1,3 +1,6 @@
+const https = require('https');
+const http = require('http');
+
 var process = require('process')
 // Handle SIGINT
 process.on('SIGINT', () => {
